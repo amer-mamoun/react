@@ -12,7 +12,6 @@ class Application extends Component {
     componentDidMount(props, state){
         console.log("Mounted with", props, state);
     }
-    
     componentWillReceiveProps(props){
 
     }
