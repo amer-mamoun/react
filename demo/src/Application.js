@@ -8,12 +8,9 @@ class Application extends Component {
 
 
     componentWillMount(props, state){
-
-
-
     }
 
-    
+
     componentDidMount(props, state){
         console.log("Mounted with", props, state);
     }
