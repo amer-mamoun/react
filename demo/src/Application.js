@@ -6,7 +6,10 @@ class Application extends Component {
         super(props);
     }
 
+
     componentWillMount(props, state){
+
+
 
     }
     componentDidMount(props, state){
