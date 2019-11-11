@@ -12,9 +12,11 @@ class Application extends Component {
     componentDidMount(props, state){
         console.log("Mounted with", props, state);
     }
+
     componentWillReceiveProps(props){
 
     }
+
 
     componentWillUpdate(props, state){
         if(this.props.name !== props.name){
