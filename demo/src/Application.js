@@ -16,8 +16,6 @@ class Application extends Component {
     componentWillReceiveProps(props){
 
     }
-
-
     componentWillUpdate(props, state){
         if(this.props.name !== props.name){
             //do sth
